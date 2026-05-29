@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CourseLab - Instructor Application</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body>
+    <div class="relative min-h-screen flex items-center justify-center py-10">
+      <div
+        class="absolute inset-0 bg-cover bg-center blur-sm"
+        style="
+          background-image: url(&quot;https://images.unsplash.com/photo-1616763355603-9755a640a287&quot;);
+        "
+      ></div>
+
+      <div class="absolute inset-0 bg-black/50"></div>
+
+      <div
+        class="relative z-10 w-full max-w-xl px-8 py-10 bg-black/60 backdrop-blur-lg rounded-xl"
+      >
+        <div class="flex justify-center">
+          <a href="./home.html">
+            <img src="../img/Course_Lab-removebg-preview.png" class="h-60 w-60" />
+          </a>
+        </div>
+
+        <h2 class="text-center text-white text-2xl font-semibold mt-4">
+          Instructor Application
+        </h2>
+
+        <p class="text-center text-gray-300 text-sm mt-2">
+          Apply to become an instructor at CourseLab
+        </p>
+
+        <form class="mt-8 space-y-5">
+          <div>
+            <label class="block mb-2 text-sm text-white"> Name</label>
+            <input
+              type="text"
+              class="w-full px-4 py-2 border border-white rounded-lg bg-transparent text-white focus:ring-2 focus:ring-blue-400 focus:outline-none"
+            />
+          </div>
+          <div>
+            <label class="block mb-2 text-sm text-white">Surname</label>
+            <input
+              type="text"
+              class="w-full px-4 py-2 border border-white rounded-lg bg-transparent text-white focus:ring-2 focus:ring-blue-400 focus:outline-none"
+            />
+          </div>
+          <div>
+            <label class="block mb-2 text-sm text-white">Email</label>
+            <input
+              type="email"
+              class="w-full px-4 py-2 border border-white rounded-lg bg-transparent text-white focus:ring-2 focus:ring-blue-400 focus:outline-none"
+            />
+          </div>
+
+          <div>
+            <label class="block mb-2 text-sm text-white">Phone Number</label>
+            <input
+              type="tel"
+              class="w-full px-4 py-2 border border-white rounded-lg bg-transparent text-white focus:ring-2 focus:ring-blue-400 focus:outline-none"
+            />
+          </div>
+
+          <div>
+            <label class="block mb-2 text-sm text-white"
+              >University / School</label
+            >
+            <input
+              type="text"
+              class="w-full px-4 py-2 border border-white rounded-lg bg-transparent text-white focus:ring-2 focus:ring-blue-400 focus:outline-none"
+            />
+          </div>
+
+          <div>
+            <label class="block mb-2 text-sm text-white">Department</label>
+            <input
+              type="text"
+              class="w-full px-4 py-2 border border-white rounded-lg bg-transparent text-white focus:ring-2 focus:ring-blue-400 focus:outline-none"
+            />
+          </div>
+
+          <div>
+            <label class="block mb-2 text-sm text-white">Address</label>
+            <input
+              type="text"
+              class="w-full px-4 py-2 border border-white rounded-lg bg-transparent text-white focus:ring-2 focus:ring-blue-400 focus:outline-none"
+            />
+          </div>
+
+          <div>
+            <label class="block mb-2 text-sm text-white"
+              >Experience / About You</label
+            >
+            <textarea
+              rows="4"
+              class="w-full px-4 py-2 border border-white rounded-lg bg-transparent text-white focus:ring-2 focus:ring-blue-400 focus:outline-none"
+            ></textarea>
+          </div>
+
+          <button
+            class="w-full mt-4 px-4 py-3 text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition"
+            type="button"
+            id="gonder"
+            onclick="mainPage()"
+          >
+            Submit Application  
+          </button>
+          <p class="mt-6 text-sm text-center text-gray-400">
+                Already have an account?
+                <a href="./login.html" class="text-blue-500 hover:underline">
+                  Sign in
+                </a>
+              </p>
+              <p class="mt-6 text-sm text-center text-gray-400">
+                <a href="./register.html" class="text-blue-500 hover:underline">
+                  Register
+                </a>
+              </p>
+        </form>
+      </div>s
+    </div>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

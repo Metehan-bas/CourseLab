@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CourseLab</title>
+    <link rel="stylesheet" href="../css/home.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body>
+    <header
+      class="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800"
+    >
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+          <div class="flex items-center">
+            <a href="./home.html">
+              <img
+                src="../img/Course_Lab-removebg-preview.png"
+                class="h-35 w-35"
+              />
+            </a>
+
+            <nav
+              class="hidden md:flex items-center gap-8 text-sm font-semibold text-gray-700 dark:text-gray-200"
+            >
+              <a href="#" class="hover:text-indigo-600">Courses</a>
+              <a href="./contact.html" class="hover:text-indigo-600">Contact</a>
+
+              <a
+                href="./BecomeInstructor.html"
+                class="ml-2 bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700"
+              >
+                Become an Instructor
+              </a>
+            </nav>
+          </div>
+
+          <div class="flex items-center gap-3" id="rightSide">
+            <a
+              href="login.html"
+              class="text-sm font-semibold text-gray-700 dark:text-white hover:text-indigo-600"
+            >
+              Login
+            </a>
+
+            <a
+              href="../html/register.html"
+              class="bg-gray-900 text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-black dark:bg-white dark:text-black hover:text-white"
+            >
+              Register
+            </a>
+
+            <button id="menuBtn" class="md:hidden p-2 text-white">
+              <svg
+                class="size-6"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="mobileMenu"
+        class="hidden md:hidden bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800"
+      >
+        <div
+          class="px-4 py-4 flex flex-col gap-4 text-sm font-semibold text-gray-700 dark:text-white"
+        >
+          <a href="#" class="hover:text-indigo-600">Courses</a>
+          <a href="../html/contact.html" class="hover:text-indigo-600">Contact</a>
+
+          <a
+            href="#"
+            class="bg-indigo-600 text-white px-4 py-2 rounded-lg text-center"
+          >
+            Become an Instructor
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <div
+      class="relative isolate overflow-hidden bg-white min-h-screen flex items-center justify-center dark:bg-gray-900"
+    >
+      <img
+        src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=2830&q=80"
+        class="absolute inset-0 -z-10 w-full h-full object-cover opacity-40"
+      />
+
+      <div class="mx-auto max-w-7xl px-6 lg:px-8">
+        <div id="yazi1" class="mx-auto max-w-2xl lg:mx-0">
+          <h2
+            class="text-5xl font-semibold tracking-tight text-gray-900 sm:text-7xl dark:text-white"
+          >
+            Become an instructor
+          </h2>
+
+          <p
+            class="mt-8 text-lg font-medium text-pretty text-gray-700 sm:text-xl/8 dark:text-gray-300"
+          >
+            Share your knowledge and reach thousands of students worldwide.
+          </p>
+        </div>
+
+        <div id="yazi2" class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
+          <dl
+            class="mt-16 grid grid-cols-1 gap-8 sm:mt-20 sm:grid-cols-2 lg:grid-cols-4"
+          >
+            <div class="flex flex-col-reverse gap-1">
+              <dt class="text-base/7 text-gray-700 dark:text-gray-300">
+                Students worldwide
+              </dt>
+              <dd
+                class="text-4xl font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                10,000+
+              </dd>
+            </div>
+
+            <div class="flex flex-col-reverse gap-1">
+              <dt class="text-base/7 text-gray-700 dark:text-gray-300">
+                Active instructors
+              </dt>
+              <dd
+                class="text-4xl font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                500+
+              </dd>
+            </div>
+
+            <div class="flex flex-col-reverse gap-1">
+              <dt class="text-base/7 text-gray-700 dark:text-gray-300">
+                Courses published
+              </dt>
+              <dd
+                class="text-4xl font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                1,200+
+              </dd>
+            </div>
+
+            <div class="flex flex-col-reverse gap-1">
+              <dt class="text-base/7 text-gray-700 dark:text-gray-300">
+                Earning potential
+              </dt>
+              <dd
+                class="text-4xl font-semibold tracking-tight text-gray-900 dark:text-white"
+              >
+                Unlimited
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-gray-950 text-gray-300">
+      <div class="max-w-7xl mx-auto px-6 py-14">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          <div>
+            <h2 class="text-2xl font-bold text-white">CourseLab</h2>
+            <p class="mt-4 text-sm text-gray-400">
+              Online learning platform. Grow your skills with expert
+              instructors.
+            </p>
+          </div>
+
+          <div>
+            <h3 class="text-white font-semibold mb-4">Company</h3>
+            <ul class="space-y-2 text-sm">
+              <li><a href="../html/contact.html" class="hover:text-white">Contact</a></li>
+              <li>
+                <a href="../html/BecomeInstructor.html" class="hover:text-white">Become an Instructor</a>
+              </li>
+              <li><a href="#" class="hover:text-white">FAQ</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 class="text-white font-semibold mb-4">Newsletter</h3>
+
+            <div class="flex">
+              <input
+                type="email"
+                placeholder="Email"
+                class="w-full px-3 py-2 rounded-l-lg bg-gray-800 border border-gray-700 text-sm focus:outline-none"
+              />
+              <button class="bg-indigo-600 px-4 rounded-r-lg text-sm">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const btn = document.getElementById("menuBtn");
+      const menu = document.getElementById("mobileMenu");
+      btn.onclick = () => menu.classList.toggle("hidden");
+    </script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
