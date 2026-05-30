@@ -19,7 +19,7 @@
 - 📚 **Courses Page** — Browse courses by category with ratings and instructor info
 - 🎓 **Become an Instructor** — Dedicated page for instructor registration
 - 📬 **Contact Page** — Contact form with address, email, phone and Google Maps integration
-- 🛡️ **Admin Panel** — Admins can add and manage courses via the navbar
+
 
 ---
 
